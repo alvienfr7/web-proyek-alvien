@@ -25,3 +25,4 @@ Thumbs.db
 /public/images/*
 !/public/images/.gitkeep
 !/public/images/gambar*
+*.sql

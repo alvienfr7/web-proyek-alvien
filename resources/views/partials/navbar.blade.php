@@ -6,7 +6,10 @@
 --}}
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom mb-4">
     <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="{{ route('home') }}">BADAN PUSAT STATISTIK</a>
+        <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="{{ route('home') }}">
+            <img src="{{ asset('images/gambar-logo-bps.png') }}" alt="Logo BPS" height="36">
+            BADAN PUSAT STATISTIK
+        </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
             <span class="navbar-toggler-icon"></span>

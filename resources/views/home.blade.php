@@ -13,6 +13,7 @@
     .hero-title { font-size: 2.8rem; font-weight: bold; color: #000; line-height: 1.2; margin-bottom: 20px; }
     .btn-eksplorasi { background-color: #0067b8; color: white; font-weight: bold; padding: 12px 24px; transition: 0.3s; border-radius: 5px; text-decoration: none; }
     .btn-eksplorasi:hover { background-color: #005da6; color: white; }
+    .hero-img { width: 100%; max-height: 380px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
 
     .indikator-section {
         background: linear-gradient(135deg, #0a4275, #175a8f);
@@ -53,9 +54,9 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center mb-4 mb-md-0">
-                    <div class="p-5" style="border: 2px dashed #ccc; background: #e9ecef; display:inline-block; width: 100%;">
-                        <span class="text-muted">Ilustrasi Data BPS (Letakkan tag img Anda di sini)</span>
-                    </div>
+                    <img src="{{ asset('images/gambar-hero.jpg') }}"
+                         alt="Ilustrasi Data BPS"
+                         class="hero-img">
                 </div>
                 <div class="col-md-6">
                     <h1 class="hero-title">Produktivitas Data Anda makin optimal</h1>
